@@ -27,6 +27,7 @@ nav{
 .nav-title{
     font-weight:800;
     font-size: 45px;
+    margin-left: 120px;
 }
 nav ul li{
     list-style:none;
@@ -66,7 +67,7 @@ nav ul{
 }
 
 .banner-greetings{
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 60px;
 }
 .banner-title{
@@ -77,18 +78,19 @@ nav ul{
     width:580px;
 }
 .section-title{
-    font-size:35px;
+    font-size:40px;
     font-weight:bold;
     color:#181818;
 }
 .section-description
 {
-    font-size:18px;
+    font-size:40px;
     color:#757575;
 }
 
 .secondary-bg{
     background-color: #FFF8F3;
+    
 }
 /*mai styles*/
 main{
@@ -113,7 +115,7 @@ main section{
     justify-content: space-around;
 }
 .item-description{
-    font-weight: 600;
+    font-weight: 800;
 }
 /*skills section style*/
 
@@ -122,7 +124,51 @@ main section{
     gap:24px;
 }
 .skill{
+    
     padding:30px;
     border-radius:5px;
     box-shadow:0px 6px 50px 0px rgba(0,0,0,0.06);
+}
+.resume-container{
+    display:flex;
+    gap:24px;
+}
+.experience-sud-title
+{
+    font-size:60px;
+    font-weight:600;
+    margin-bottom: 20px;
+}
+.experience-description,.experience-sud-title{
+    color:#757575
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+/*footer-style*/
+footer{
+    padding: 120px 239px;
+    display: flex;
+    gap:100px;
+}
+.footer-column
+{
+  width:50%;  
+}
+footer input[type="text"],footer input[type="email"],footer textarea
+{
+   height:64px;
+   border-radius: 5px;
+   background-color: white;
+   display: block;
+   width:100%;
+   padding:10px 20px;
+   margin-bottom: 24px;
+   border:none;
+
+
+}
+form h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
 }
